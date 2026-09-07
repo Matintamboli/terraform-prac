@@ -6,10 +6,31 @@
 *.tfvars
 *.tfvars.json
 crash.log
+crash.*.log
 override.tf
 override.tf.json
 *_override.tf
 *_override.tf.json
+.terraformrc
+terraform.rc
+
+# AWS credentials & keys
+*.pem
+*.ppk
+*.key
+*.crt
+*.p12
+.aws/
+aws_credentials
+credentials
+
+# Environment / secrets
+.env
+.env.*
+*.env
+secrets.yaml
+secrets.yml
+secrets.json
 
 # Editor
 .vscode/
